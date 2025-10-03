@@ -1,0 +1,112 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #fff;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .product {
+      display: flex;
+      gap: 40px;
+    }
+    .product img {
+      width: 400px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .details h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    .details p {
+      margin: 10px 0;
+      color: #666;
+    }
+    .rating {
+      margin: 10px 0;
+      color: #f39c12;
+    }
+    .price {
+      font-size: 24px;
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    .old-price {
+      text-decoration: line-through;
+      color: #999;
+      margin-left: 10px;
+      font-size: 16px;
+    }
+    .options {
+      margin: 15px 0;
+    }
+    select {
+      padding: 8px;
+      margin-right: 10px;
+    }
+    .buttons button {
+      padding: 12px 18px;
+      margin-right: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .add {
+      background: #007bff;
+      color: #fff;
+    }
+    .buy {
+      background: #eee;
+      color: #333;
+    }
+    .stock {
+      color: green;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .tabs {
+      margin-top: 30px;
+      border-bottom: 1px solid #ddd;
+    }
+    .tabs button {
+      padding: 10px 20px;
+      border: none;
+      background: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .tabs button.active {
+      border-bottom: 3px solid #007bff;
+      color: #007bff;
+    }
+    .tab-content {
+      margin: 20px 0;
+    }
+    .reviews {
+      margin-top: 40px;
+    }
+    .review {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .review img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+    .review-content h4 {
+      margin: 0;
+    }
+    .review-content small {
+      color: #666;
+    }
